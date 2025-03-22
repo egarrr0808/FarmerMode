@@ -66,3 +66,4 @@ auto-grant-farmer-role-to-ops: true  # Automatically grant farmer role to server
 
 ## Support
 For support or to report issues, please contact the server administrator.
+You can contact me through Discord : _egarrr.
