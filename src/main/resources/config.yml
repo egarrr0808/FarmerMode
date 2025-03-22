@@ -1,0 +1,14 @@
+# Default config file for FarmerMode plugin
+
+# Server display settings
+server-name: "Kesarikov.online"  # Server name to display in tab list
+
+# Spawn rate settings
+spawn-rate-multiplier: 2.0  # Multiplier for monster spawn rates in farm mode
+
+# Voting system settings
+vote-time-seconds: 60       # Duration of voting period in seconds
+required-approval-percentage: 75.0  # Percentage of players required to approve farm mode (0-100)
+
+# Permission settings
+auto-grant-farmer-role-to-ops: true  # Automatically grant farmer role to server operators

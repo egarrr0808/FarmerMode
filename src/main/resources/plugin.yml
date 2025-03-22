@@ -1,0 +1,21 @@
+name: FarmerMode
+version: ${version}
+main: com.farmermode.plugin.FarmerMode
+api-version: 1.21
+description: A plugin that allows players with the "farmer" role to enable a special mode with increased monster spawn rates
+author: Manus
+permissions:
+  farmermode.use:
+    description: Allows players to use the farmer mode commands
+    default: op
+  farmermode.farmer:
+    description: Identifies a player as a farmer who can activate farm mode
+    default: false
+  farmermode.admin:
+    description: Allows administrative control over the plugin
+    default: op
+commands:
+  farmmode:
+    description: Main command for controlling the farmer mode
+    usage: /farmmode <enable|disable|vote|status>
+    permission: farmermode.use
