@@ -65,5 +65,4 @@ auto-grant-farmer-role-to-ops: true  # Automatically grant farmer role to server
 - If monster spawn rates don't seem to increase, check that the `spawn-rate-multiplier` in the config is set to a value greater than 1.0
 
 ## Support
-For support or to report issues, please contact the server administrator.
-You can contact me through Discord : _egarrr.
+For support or to report issues you can contact me through Discord : _egarrr.
